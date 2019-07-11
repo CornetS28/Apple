@@ -1,0 +1,87 @@
+.wrap-all {
+    width: 90em;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 190px) 100px;
+    grid-gap: 2px;
+    
+}
+body {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background: url('../images/backgroundpic.jpg') 0 100% no-repeat;
+    max-height: 520px;
+}
+[href="link1"],
+[href="link2"] {
+   
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 200%;
+    text-decoration: none;
+    width: 27em;
+    color: white;
+}
+[href="link1"] {
+    line-height: 1.5;
+    margin-top: 12em;
+    text-align: center;
+}
+[href="link2"] {
+    padding-top: .5em;
+    font-size: 150%;
+    background: url('../images/play-icon.png') 96% .3em no-repeat;
+    background-size: 31px 31px;
+    padding-left: 3em;
+}
+[href="link2"]:hover {
+    text-decoration: underline white;
+}
+
+
+/* .first-item {
+    grid-row: 1/ span 3;
+    grid-column: 1/-1;
+    background: url('../images/backgroundpic.jpg') 0 100% no-repeat;
+    background-size: cover;
+    max-height: 50rem;
+} */
+h1 {
+    margin-top: -3.5em;
+    font-size: 60px;
+    font-weight: 100;
+    color :white;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1;
+    margin-left: 350px;
+  
+}
+
+  
+h2 {
+    width: 65%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.5em;
+    color :white;
+    margin-left: 220px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1;
+    
+}
+  
+h3 {
+    margin: 1.5em;
+    font-size: 20px;
+    font-weight: 200;
+    color :white;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1;
+    margin-left: 450px;
+}
+h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
